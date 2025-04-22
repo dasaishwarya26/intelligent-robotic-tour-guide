@@ -22,9 +22,7 @@ Tests GPT-4 responses to typed museum commands. Uses real OpenAI API to simulate
   - I want to avoid noisy areas and see digital installations
 
 
-```
-
-### Navigation Module (ROS + Dynamic Path Planning) – Intelligent Robotic Tour Guide  
+# Navigation Module (ROS + Dynamic Path Planning)
 **Implemented by: Aishwarya Das**
 
 #### Overview  
@@ -64,10 +62,13 @@ The navigation system integrates dynamic path planning capabilities, allowing th
 
 #### Sample Launch and Control Workflow  
 ```bash
-# Launch Tiago in Gazebo (without MoveIt)
-ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:=True use_moveit:=False
 
-# Example of issuing a navigation command (pseudo-code)
-ros2 topic pub /goal_pose geometry_msgs/PoseStamped "{...}"
+cd /intelligent-robotic-tour-guide
+colcon build
+source install/setup.bash
+
+ros2 launch tiago_gazebo tiago_gazebo.launch.py \
+  world_name:=install/my_custom_world/share/my_custom_world/worlds/box_world.world \
+  is_public_sim:=True use_moveit:=False navigation:=True gui:=True
 ```
 
