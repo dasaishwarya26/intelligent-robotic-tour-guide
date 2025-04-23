@@ -4,7 +4,7 @@ import librosa
 import soundfile as sf
 import os
 
-
+# Set huggingface API key
 HF_API_KEY = os.getnev("HF_API_KEY")
 
 def annotate_audio(audio_file):
