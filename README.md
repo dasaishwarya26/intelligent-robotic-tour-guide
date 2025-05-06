@@ -1,7 +1,7 @@
-## NLP & Voice Command Modules  
+## NLP, Voice Command, and Anomaly Detection Modules  
 **Implemented and Tested by: Sweta Mishra**  
 
-These modules enable natural interaction with the museum robot system through both voice and text input. The components work together to process user queries using speech recognition, GPT-4-based natural language understanding, and user preference extraction. All features align with the capabilities outlined in the project proposal.
+These modules enable natural user interaction and situational awareness within the museum robot system. The components cover voice input, natural language understanding, user preference extraction, and real-time anomaly detection using visual input. All implementations align with the goals outlined in the original project proposal.
 
 ---
 
@@ -41,6 +41,11 @@ Implements rule-based extraction of user preferences from spoken or typed input.
 Integrates voice input, GPT-4 response generation, and real-time preference extraction in a complete user interface. The system captures user voice, generates personalized responses, and extracts intent in a structured form.
 
 ---
+### 5. `anomaly_module`  
+Implements real-time detection of crowds and obstacles using YOLOv8, enhancing the robot’s awareness of its environment. The module processes visual input from the camera and flags anomalies to support safe interaction in the museum space. 
+
+---
+
 
 These components provide robust support for natural language understanding and personalization based on user commands, as described in the original proposal.
 
