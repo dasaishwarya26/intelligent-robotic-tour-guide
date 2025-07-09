@@ -1,5 +1,5 @@
 ## NLP, Voice Command, and Anomaly Detection Modules  
-**Implemented and Tested by: Sweta Mishra**  
+
 
 These modules enable natural user interaction and situational awareness within the museum robot system. The components cover voice input, natural language understanding, user preference extraction, and real-time anomaly detection using visual input. All implementations align with the goals outlined in the original project proposal.
 
@@ -51,7 +51,7 @@ These components provide robust support for natural language understanding and p
 
 
 # Navigation Module (ROS 2 + Tiago + Dynamic Path Planning)  
-**Implemented and Tested by: Aishwarya Das**
+
 
 This module enables real-time autonomous navigation in a simulated museum environment using ROS 2 Humble and the Tiago robot. It forms the foundation of adaptive movement, supporting user-driven commands and personalized routing powered by dialog input.
 
