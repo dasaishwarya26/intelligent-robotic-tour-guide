@@ -1,5 +1,5 @@
 ## NLP, Voice Command, and Anomaly Detection Modules  
-**Implemented and Tested by: Sweta Mishra**  
+
 
 These modules enable natural user interaction and situational awareness within the museum robot system. The components cover voice input, natural language understanding, user preference extraction, and real-time anomaly detection using visual input. All implementations align with the goals outlined in the original project proposal.
 
@@ -53,7 +53,7 @@ These components provide robust support for natural language understanding and p
 ```
 
 ### Navigation Module (ROS + Dynamic Path Planning) – Intelligent Robotic Tour Guide  
-**Implemented by: Aishwarya Das**
+
 
 #### Overview  
 This module is a core component of the Intelligent Robotic Conversational and Interaction System for a simulated museum tour guide. It is responsible for real-time robotic control, environment-aware path planning, and adaptive movement through virtual museum spaces using the ROS 2 framework and Tiago robot in the Gazebo simulation environment.
